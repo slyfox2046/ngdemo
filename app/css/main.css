@@ -1,0 +1,158 @@
+#home {
+  background: url("../images/bgimg.jpg");
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+/*麦子图标*/
+.mai-icon{
+  background: rgb(67, 211, 186);
+  color: white;
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+/*背景滤镜*/
+.lvjing{
+  height: 100%;
+  width: 100%;
+  background:rgba(0,0,0,0.3);
+  padding: 90px 0;
+}
+
+#home h1{
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+#home p{
+  font-weight: 400;
+  line-height: 35px;
+}
+
+#home img{
+  padding: 0;
+  margin-top: 30px;
+  /*图像居中显示*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+/*bbs*/
+#bbs {
+  padding-top: 80px;
+  text-align: center;
+}
+#bbs a{
+  color: #212121;
+  text-decoration: none;
+
+}
+
+/*图片居中*/
+#bbs img{
+  margin: auto;
+}
+#bbs h3{
+  font-weight: bold;
+}
+
+#bbs .col-md-4{
+  padding:5px 0;
+}
+
+#bbs .col-md-4:hover{
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 11px 11px 11px #cccccc;
+  -moz-box-shadow:  1px 1px 4px #cccccc;
+  box-shadow:  1px 5px 5px #cccccc;
+}
+
+/*html5*/
+#html5,#angular,#appl{
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  min-height: 330px;
+
+}
+
+#html5 h2,#angular h2,#appl h2  {
+  font-weight: bold;
+  font-family: "Microsoft YaHei UI"  ;
+}
+
+#html5 p,#angular p,#appl p {
+  line-height: 40px;
+}
+
+#appl .btn {
+  margin:10px 0;
+  background: rgb(64,210,177);
+  border-color: rgb(64,210,177);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding:6px 30px;
+  transition: all 0.3s;
+}
+
+#appl .btn:hover{
+  border-color: rgb(44,142,140);
+  background: rgb(44,142,140);
+}
+
+#contact {
+  background: url("../images/map.jpg") no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#contact .lvjing {
+  background: rgba(0,0,0,0.65);
+}
+
+#contact h2{
+  margin-top: 0px;
+}
+
+#contact p {
+  line-height: 25px;
+}
+
+#contact .form-control{
+  border: none;
+  border-radius: 0;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#contact textarea.form-control{
+  height: auto;
+}
+
+#contact input[type="submit"]{
+  background: rgb(64,210,177);
+  /*border: none;*/
+  color: #ffffff;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+#contact input[type="submit"]:hover{
+  background: rgb(44,142,140);
+}
+
+.footer{
+  font-weight: 400;
+  text-align: center;
+  padding:10px 0;
+}
